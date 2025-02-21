@@ -1,6 +1,6 @@
 services:
   xsshunterexpress-db:
-    image: postgres
+    image: postgres:17
     container_name: xsshunterexpress-db
     restart: unless-stopped
     env_file:
